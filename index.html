@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Todo list</title>
+  </head>
+  <body>
+    <div class="title">
+      <h1>Todo App</h1>
+      <h2>Lucas Viga</h2>
+    </div>
+    <div class="container">
+      <div class="todo-list">
+        <div class="addTask">
+          <input id="input" type="text" placeholder="Add a Task" />
+          <button id="button"><span>+</span></button>
+        </div>
+        <ul id="notCompleted" class="notCompleted">
+          <h3 id="notCompleted_h3" style="display: none">Tasks to do - 0</h3>
+        </ul>
+
+        <ul id="Completed" class="Completed">
+          <h3 id="Completed_h3" style="display: none">Done - 0</h3>
+        </ul>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
